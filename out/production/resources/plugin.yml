@@ -1,0 +1,9 @@
+name: CombatSystems
+version: 1.0.1
+main: com.test.combatsystems.CombatSystems
+commands:
+  combatsystems:
+    aliases:
+      - cs
+    description: 插件描述
+    permission-message: 你不能执行他
