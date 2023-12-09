@@ -60,7 +60,7 @@ public class PlayerAttack implements Listener {
                             return;
                         }
                     }
-                    if (openAxp && itemType1.contains("AXE")) {
+                    if (openAxp && itemType1.contains("AXE") && !itemType1.contains("PICKAXE")) {
                         int a = playerDataMap.get(player).getAxp() + 1;
                         if (playerDataMap.get(player).getAxp() < 9) {
                             player.sendMessage("§4连击数§6" + a);
